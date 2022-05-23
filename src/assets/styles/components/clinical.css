@@ -1,0 +1,204 @@
+body {
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+
+.clinical-container {
+    background: #f9f9f9;
+    display: flex;
+    flex-flow: column;
+    height: 100vh;
+}
+
+.navbar-container {
+    background-color: #24408e;
+    padding: 5px 10px;
+}
+
+.navbar-container .clinical-art-logo{
+    height: 41px;
+    width: 105px;
+    object-fit: cover;
+}
+
+.navbar-container .paging {
+    background: #fff;
+    border-radius: 17px;
+    width: 64px !important;
+    height: 28px;
+    display: block;
+    text-align: center;
+    line-height: 28px;
+    font-size: 15px;
+    color: #aaaaaa;
+}
+
+.navbar-container .searchbox-icon-wrap{
+    border-radius: 200px;
+    background: #24408e;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.user-bio-card{
+    border: 1px solid #ff20f0;
+    border-radius: 10px !important;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.scrollable-user-card{
+    width: auto;
+    min-width: 450px;
+    min-height: 110px;
+    margin: 10px 5px;
+}
+
+.user-bio-two{
+    display: none;
+    margin: 10px 15px;
+}
+
+@media (min-width: 1100px) {
+    .user-bio-one{
+        display: none;
+    }
+    .user-bio-two{
+        display: unset;
+    }
+}
+
+.user-card-detail table tbody td {
+    border-bottom: 1px solid #ECECEC;
+}
+
+.user-card-detail table tbody tr:last-child > td {
+    border-bottom: none;
+}
+
+.user-card-detail table tbody td:nth-child(1) {
+    border-left: 1px solid #ECECEC;
+    padding-right: 36px;
+    padding-left: 8px;
+}
+
+.user-card-detail table tbody td:last-child {
+    padding-right: 15px;
+}
+
+.patient_pic {
+    text-align: center;
+    position: relative;
+}
+
+.user-bio-card .patient_detail li {
+    line-height: 20px;
+}
+
+.patient_pic span {
+    width: 23px;
+    display: block;
+    height: 23px;
+    position: absolute;
+    right: 16px;
+    bottom: -3px;
+    
+    background: #ff20f0;
+    border-radius: 100%;
+    border: 2px solid #fff;
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    line-height: 22px;
+}
+
+.quick-links {
+    border: none;
+}
+
+.quick-links ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+}
+
+.quick-links ul li{
+    border-bottom: 1px solid #ececec;
+    padding: 5px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.quick-links ul li:nth-child(6){
+    border-bottom: none;
+}
+
+.quick-links ul li:nth-child(5){
+    border-bottom: none;
+}
+
+.quick-links ul li:nth-child(even){
+    border-left: 1px solid #ececec;
+}
+
+.quick-links ul li .quick-link-label{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.clinical-container>.stimulation-preparation-table>table>thead>th{
+    border: none;
+}
+
+.clinical-container>.stimulation-preparation-table>table>tbody>td{
+    border: 1px solid #707070;
+    line-height: unset;
+    letter-spacing: unset;
+}
+
+.clinical-container>.stimulation-preparation-table>table>tbody>td:nth-child(1){
+    border: none;
+}
+
+.clinical-container>.final-oocyte-table>table>thead>th{
+    border-bottom: none !important;
+}
+
+.clinical-container>.final-oocyte-table>table>td{
+    border: 1px solid #707070;
+    line-height: unset;
+    letter-spacing: unset;
+}
+
+.clinical-container>.final-oocyte-table>table>th{
+    border: 1px solid #707070;
+    line-height: unset;
+    letter-spacing: unset;
+}
+
+/* card-header */
+.card-header {
+    background: white;
+    padding: 6px 10px;
+    box-shadow: rgb(0 0 0 / 25%) 1.95px 1.95px 9.6px;
+    z-index: 1000;
+    border-radius: 0 0 4px 4px;
+}
+
+.card-header .MuiGrid-grid-lg-8 {
+    flex-grow: 0;
+    max-width: 66.666667%;
+    flex-basis: 66.666667%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: flex-end;
+    /* right: -25%; */
+}
+
+/* end card header */

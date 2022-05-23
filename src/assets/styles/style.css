@@ -1,0 +1,14 @@
+@import url(./global.css);
+@import url(./macro/variable.css);
+@import url(./macro/typography.css);
+@import url(./components/nav.css);
+@import url(./components/scheduler-table.css);
+@import url(./components/modal.css);
+@import url(./components/registration.css);
+@import url(./components/table.css);
+@import url(./components/billing.css);
+@import url(./components/adt.css);
+@import url(./components/auth.css);
+@import url(./components/clinical.css);
+@import url(./components/clinicalStyles/overviewTab.css);
+@import url(./components/clinicalStyles/anamnesisTab.css);

@@ -1,0 +1,92 @@
+.full-modal-container{
+    background: white;
+    height: 100%;
+}
+
+.full-modal-container .full-modal-scroll-container{
+    background: white;
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+}
+
+.full-modal-container .full-modal-head-container{
+    padding: 20px 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    z-index: 1000;
+}
+
+.full-modal-container .full-modal-body-container{
+    flex-grow: 1;
+    overflow-y: auto;
+    padding: 25px 35px;
+}
+
+
+.modal-dialog{
+    background-color: white;
+    margin-left: auto;
+    box-shadow: 0 5px 15px rgba(0,0,0,.12);
+    height: 100vh;
+}
+
+.small{
+    width: 425px;
+}
+
+.medium{
+    width: 625px;
+}
+
+.half-page{
+    width: 1000px;
+}
+
+.full-page{
+    width: 100%;
+}
+
+.modal-dialog .modal-content{
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+}
+
+.modal-dialog .modal-content .modal-header{
+    padding: 15px 20px;
+	border-bottom: 1px solid gainsboro;
+}
+
+.modal-dialog .modal-content .modal-header .modal-heading {
+	padding: 0px;
+	margin: 0px;
+	font-weight: 600;
+}
+
+.modal-dialog .modal-content .modal-body{
+    overflow-y: auto;
+    flex-grow: 1;
+    padding: 20px 20px;
+}
+
+.full-page .modal-content .modal-body{
+    background: #eaeff5;
+}
+
+.modal-dialog .modal-content .modal-footer{
+    padding: 15px 20px;
+	border-top: 1px solid gainsboro;
+}
+
+.modal-dialog .modal-content .more-padding{
+    padding-right: 35px !important;
+}
+
+@media (max-width: 768px) {
+    .modal-dialog{
+        width: 100%;
+    }
+}

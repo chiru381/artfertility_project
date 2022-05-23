@@ -1,0 +1,26 @@
+.root-sidebar {
+    transition: 0.5s ease-in-out;
+    transform: translateX(0px);
+    width: 290px;
+    margin-left: -290px;
+    z-index: 2;
+    overflow-y: auto;
+    position:fixed; 
+	height: 100%;
+    background-color: white;
+}
+
+.root-sidebar-open{
+    transform: translateX(290px);
+    border-right: 1px solid rgba(100, 67, 67, 0.1);
+}
+
+@media (max-width: 1260px) {
+    .root-sidebar-overlay{
+        position: fixed;
+        background-color: rgba(0,0,0,0.4);
+        z-index: 1;
+        height: 100%;
+        width: 100%;
+    }
+}

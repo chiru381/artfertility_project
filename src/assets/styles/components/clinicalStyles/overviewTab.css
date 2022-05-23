@@ -1,0 +1,260 @@
+/* Overview */
+.tab_area {
+  padding: 10px;
+}
+/*----------------------------------*/
+
+/* Overview */
+
+/* sachin vital box area */
+.vitalhead {
+  background-color: #bebebe33;
+  width: 100%;
+}
+
+.stimulationhead {
+  background-color: #bebebe33;
+}
+.IVFhead {
+  background-color: #bebebe33;
+}
+.ultrahead {
+  background-color: #ffebfe;
+}
+.sperm-head {
+  background-color: #e8f8fe;
+}
+.pink_icon {
+  position: absolute;
+  right: 37px;
+  top: 10px;
+}
+.blue_icon {
+  position: absolute;
+  right: 37px;
+  top: 10px;
+}
+.tab_icon {
+  position: absolute;
+  right: 8px;
+  cursor: pointer;
+  top: 10px;
+}
+.innerBoxData {
+  font-size: 12px;
+  padding: 0 7px;
+}
+
+/* ultrasound area */
+.ultraTab span {
+  text-transform: initial;
+  color: #24408e;
+  font-size: 12px;
+}
+
+.ultraBox {
+  border: 2px solid #bebebe33;
+  border-radius: 10px;
+  height: 35vh;
+  position: relative;
+  width: 25%;
+  background-color: white;
+  /* display: flex; */
+}
+
+
+
+/* end ultrasound area */
+
+/* start spermiogram area */
+.spermiogramBox {
+  border: 2px solid #bebebe33;
+  border-radius: 10px;
+  height: 17vh;
+  position: relative;
+  background-color: white;
+}
+
+.spermiogramTab span {
+  text-transform: initial;
+  color: #24408e;
+  font-size: 12px;
+}
+
+.testiculorBox {
+  border: 2px solid #bebebe33;
+  border-radius: 10px;
+  height: 17vh;
+  position: relative;
+
+  background-color: white;
+}
+
+.testiculorTab span {
+  text-transform: initial;
+  color: #24408e;
+  font-size: 12px;
+}
+
+.PrescriptionBox {
+  border: 2px solid #bebebe33;
+  border-radius: 10px;
+  height: 30vh;
+  position: relative;
+  background-color: white;
+  width: 32.5%; 
+}
+
+/* end PrescriptionBox area*/
+
+.lastBox {
+  background-color: aquamarine;
+}
+
+/* start media query */
+
+@media screen and (max-width: 360px){
+  .six_service {
+      width: 95% !important;
+    }
+    .six_service ul li {
+      font-size: 14px !important;
+      padding: 6px 1px !important;
+     
+  }
+}
+
+@media screen and (max-width: 414px){
+.sperm-lab-test{
+  width: 48% !important;
+}
+.box-card-body {
+  width: 100% !important;
+}
+  .six_service {
+    padding: 8px;
+    width: 96%
+  }
+  .box-card-body-flex {
+    width: 100% !important;
+    display: flex !important;
+    flex-wrap: nowrap !important;
+}
+.sperm-test-flex{
+  width: 100% !important;
+}
+
+.PrescriptionBox {
+  border: 2px solid #bebebe33;
+  border-radius: 10px;
+  height: 30vh;
+  position: relative;
+  background-color: white;
+  width: 100%; 
+}
+}
+
+@media screen and (max-width: 768px){
+  .patient_full_detail ul {
+    /* height: 100%; */
+    position: absolute;
+    top: -8px;
+    line-height: 18px;
+    width: 87%;
+    height: 94px;
+    border-left: 1px solid #ddd;
+}
+.box-card-body {
+  width: 100% !important;
+}
+.items {
+  width: 100% !important;
+}
+.sperm-lab-test{
+  width: 48% !important;
+}
+
+.six_service {
+    padding: 8px;
+    width: 98%
+    }
+  .box-card-body-flex {
+    width: 100% !important;
+    display: flex !important;
+    flex-wrap: nowrap !important;
+}
+.sperm-test-flex{
+  width: 100% !important;
+  padding: 10px 0;
+  }
+  .PrescriptionBox {
+    border: 2px solid #bebebe33;
+    border-radius: 10px;
+    height: 30vh;
+    position: relative;
+    background-color: white;
+    width: 100%; 
+  }
+}
+
+
+
+
+
+
+
+/* end query   */
+
+
+
+
+.box-card-flex {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 8px;
+  column-gap: 12px;
+}
+.box-card-body {
+  width: 32.7%;
+  margin: 10px 0;
+  height: 29vh;
+  position: relative;
+  background: white;
+  border-radius: 10px;
+  /* padding: 0px 15px; */
+}
+.box-card-body-flex{
+  display: flex;
+  flex-wrap: wrap;
+  /* padding: 0 8px; */
+  column-gap: 12px;
+  width: 32.7%;
+}
+.items{
+  border: 2px solid #bebebe33;
+  border-radius: 10px;
+  height: 30vh;
+  position: relative;
+  width: 47.7%;
+  background-color: white;
+}
+.sperm-test-flex{
+  display: flex;
+  flex-wrap: wrap;
+  /* padding: 0 8px; */
+  column-gap: 12px;
+  width: 32.7%;
+
+}
+.sperm-test{
+  display: flex;
+  flex-direction: column;
+  width:47.7%;
+}
+.spermiogram{
+  border: 2px solid #bebebe33;
+  border-radius: 10px;
+  height: 14.8vh;
+  position: relative;
+  background-color: white;
+}

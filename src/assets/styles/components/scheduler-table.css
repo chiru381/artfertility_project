@@ -1,0 +1,16 @@
+.scheduler-table .MuiTableCell-body{
+    height: 24px;
+}
+
+.scheduler-left-panel{
+    height: 100%;
+    overflow-y: auto;
+    flex-direction: column;
+    display: flex;
+    width: 250px;
+    border-right: 1px solid rgba(224, 224, 224, 1)
+}
+
+.scheduler-left-panel-auto{
+    width: auto;
+}

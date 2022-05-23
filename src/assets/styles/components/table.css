@@ -1,0 +1,20 @@
+.table-container{
+	margin: 10px;
+}
+
+.table-container th[class*="MuiTableCell-head"]{
+	position: sticky !important;
+	z-index: 100;
+	top: 0;
+	background: #fff;
+}
+
+.table-container > div[class*="MuiPaper-rounded"] > div:nth-child(3){
+	height: calc(100vh - 198px) !important;
+}
+
+.table-head-label{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	color: #696969;
+}

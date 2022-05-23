@@ -1,0 +1,56 @@
+[
+    {
+        "first_name": "Emma",
+        "last_name": "Aguirre",
+        "salary": 86936,
+        "gender": "Female",
+        "date": "2001-09-01",
+        "country": "Ukraine",
+        "age": 55
+    },
+    {
+        "first_name": "Mathilde",
+        "last_name": "Udell",
+        "salary": 63649,
+        "gender": "Female",
+        "date": "2002-04-18",
+        "country": "Ireland",
+        "age": 60
+    },
+    {
+        "first_name": "Tedman",
+        "last_name": "Cowey",
+        "salary": 86861,
+        "gender": "Male",
+        "date": "2019-01-21",
+        "country": "Ghana",
+        "age": 44
+    },
+    {
+        "first_name": "Zelda",
+        "last_name": "Daleman",
+        "salary": 61144,
+        "gender": "Female",
+        "date": "2005-07-03",
+        "country": "Taiwan",
+        "age": 62
+    },
+    {
+        "first_name": "Nicoli",
+        "last_name": "Bodicam",
+        "salary": 62918,
+        "gender": "Female",
+        "date": "2009-04-03",
+        "country": "Israel",
+        "age": 24
+    },
+    {
+        "first_name": "Rosaline",
+        "last_name": "McGettigan",
+        "salary": 93842,
+        "gender": "Female",
+        "date": "2020-04-05",
+        "country": "Albania",
+        "age": 30
+    }
+]

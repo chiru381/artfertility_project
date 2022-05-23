@@ -1,0 +1,15 @@
+export const monthArray = [
+	{ label: "All", label_np: "All", value: "all" },
+	{ label: "January", label_np: "January", value: "01" },
+	{ label: "February", label_np: "February", value: "02" },
+	{ label: "March", label_np: "March", value: "03" },
+	{ label: "April", label_np: "April", value: "04" },
+	{ label: "May", label_np: "May", value: "05" },
+	{ label: "June", label_np: "June", value: "06" },
+	{ label: "July", label_np: "July", value: "07" },
+	{ label: "August", label_np: "August", value: "08" },
+	{ label: "September", label_np: "September", value: "09" },
+	{ label: "October", label_np: "October", value: "10" },
+	{ label: "November", label_np: "November", value: "11" },
+	{ label: "December", label_np: "December", value: "12" },
+];

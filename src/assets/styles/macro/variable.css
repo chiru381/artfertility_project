@@ -1,0 +1,36 @@
+:root {
+    --green: #1AA659;
+    --green-gradient:linear-gradient(87.64deg, #05AF3F 16.81%, #6DDA7E 147.4%);
+    --green-black:#325755;
+    --red: #D52933;
+    --yellow: #fbae39;
+    --darkgrey:#333333;
+    --lightgrey:#f3f3f3;
+    --grey:#959595;
+
+    --black:#000000;
+    --white:#ffffff;
+    --purple-two: #2F004F;
+}
+
+
+.text-purple {
+    color: #42056B;
+}
+
+.text-d-gray {
+    color: #575555
+}
+
+.bg-lightgray {
+    /* background-color: var(--lightgrey); */
+    background-color: #eaeff5;
+}
+
+.bg-white {
+    background-color: var(--white);
+}
+
+.bg-theme {
+    background-color: var(--green) !important;
+}

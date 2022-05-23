@@ -1,0 +1,104 @@
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Roboto'), local('Roboto-Regular'), url(http://fonts.gstatic.com/s/roboto/v15/zN7GBFwfMP4uA6AR0HCoLQ.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    src: local('Roboto Medium'), local('Roboto-Medium'), url(http://fonts.gstatic.com/s/roboto/v15/RxZJdnzeo3R5zSexge8UUaCWcynf_cDxXwCLxiixG1c.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Roboto Bold'), local('Roboto-Bold'), url(http://fonts.gstatic.com/s/roboto/v15/d-6IYplOFocCacKzxwXSOKCWcynf_cDxXwCLxiixG1c.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Roboto Light'), local('Roboto-Light'), url(http://fonts.gstatic.com/s/roboto/v15/Hgo13k-tfSpn0qi1SFdUfZBw1xU1rKptJj_0jans920.woff2) format('woff2');
+}
+
+hr {
+    opacity: 0.15;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+.text-lowercase {
+    text-transform: lowercase;
+}
+.text-capitalize {
+    text-transform: capitalize;
+}
+
+.text-center {
+    text-align: center;
+}
+.text-left {
+    text-align: left;
+}
+.text-right {
+    text-align: right;
+}
+
+.font-regular {
+    font-weight: 400 !important;
+    font-family: 'Roboto' !important;
+    display: block;
+}
+
+.font-medium {
+    font-weight: 500 !important;
+    font-family: 'Roboto' !important;
+    /* display: block; */
+}
+
+.font-bold {
+    font-weight: 700 !important;
+    font-family: 'Roboto' !important;
+    /* display: block; */
+}
+
+.font-light {
+    font-weight: 300 !important;
+    font-family: 'Roboto' !important;
+    /* display: block; */
+}
+
+.text-11{
+    font-size: 11px !important;
+}
+.text-12{
+    font-size: 12px !important;
+}
+.text-13{
+    font-size: 13px !important;
+}
+.text-14{
+    font-size: 14px !important;
+}
+.text-15{
+    font-size: 15px !important;
+}
+.text-16{
+    font-size: 16px !important;
+}
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-center{
+    display: flex;
+    align-items: center;
+}

@@ -1,0 +1,30 @@
+.patient-view-container .patient-top-row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.patient-view-container .patient-view-card{
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 6px;
+    padding: 15px;
+    width: 49%;
+    background: rgba(0,0,0,0.01);
+}
+
+.patient-view-container .heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid gainsboro;
+    min-height: 45px;
+}
+
+@media (max-width: 960px) {
+    .patient-view-container .patient-top-row{
+        flex-direction: column;
+    }
+    
+	.patient-view-container .patient-view-card{
+		width: 100%;
+	}
+}
